@@ -7,6 +7,10 @@
 .env.*
 config.json
 
+# Blog content is published from the separate blog_astro project.
+/docs/blog-post.md
+/blog/
+
 # Account data is private by default, including custom exports.
 *.json
 *.jsonl

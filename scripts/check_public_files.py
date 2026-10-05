@@ -21,12 +21,11 @@ PUBLIC_FILES = {
     "LICENSE",
     "README.md",
     "config.example.json",
-    "docs/blog-post.md",
     "fix_hevy_weights.py",
     "scripts/check_public_files.py",
     "test_fix_hevy_weights.py",
 }
-REQUIRED_FILES = PUBLIC_FILES - {"docs/blog-post.md"}
+REQUIRED_FILES = PUBLIC_FILES
 MAX_PUBLIC_FILE_BYTES = 512 * 1024
 FORBIDDEN_CONTENT = {
     "UUID (use clearly synthetic non-UUID identifiers in examples)": re.compile(

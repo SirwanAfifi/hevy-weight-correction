@@ -1,0 +1,6 @@
+{
+  "default_barbell_weight_kg": 20,
+  "bar_weight_overrides": {},
+  "default_is_private": null,
+  "workout_privacy": {}
+}

@@ -1,0 +1,47 @@
+# Credentials and personal configuration. Never force-add these files.
+.hevy-api-key
+.hevy-api-key.*
+*.key
+*.pem
+.env
+.env.*
+config.json
+
+# Account data is private by default, including custom exports.
+*.json
+*.jsonl
+*.ndjson
+*.csv
+*.tsv
+*.sqlite
+*.sqlite3
+*.db
+*.zip
+*.tar
+*.gz
+!config.example.json
+
+# Migration outputs can include personal information in Markdown too.
+.private/
+hevy-correction/
+hevy-correction-*/
+backup/
+backups/
+output/
+outputs/
+exports/
+*.log
+*.bak
+
+# Local tooling and OS files.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.DS_Store
+.idea/
+.vscode/
